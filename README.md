@@ -16,6 +16,12 @@ We can see that our distillation can really work between Cylinder3D and PolarNet
 Here is the screen shot of our results on official [competition webset](https://codalab.lisn.upsaclay.fr/competitions/6280#results).
 
 ![img|center](./fig/result_submit.png)
+
+## Visulation
+
+![img|center](./fig/visual.png)
+
+You can see that our model can well work at the regions with more height information. For more explanation, you can see from our paper Section Ⅳ.E.
 ## Install
 
 You can simply follow Cylinder3D's [description](https://github.com/xinge008/Cylinder3D#installation).
