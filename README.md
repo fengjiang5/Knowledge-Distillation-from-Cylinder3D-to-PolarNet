@@ -56,6 +56,10 @@ We follow offical split of train and test set.
         └── 21/
 ```
 
+## Pretrain Model
+You can get our model from [here](https://drive.google.com/file/d/1Cux6yVjnet6ZnaSmAdJKE_IzkBuf91u_/view?usp=sharing). This is trained by our framework. And you can directly run `test_pretrain_SemanticKITTI_tta.py` after download `ours_test_61.1.pt` and put it in `pretrained/`.
+
+Of course, you can also train from begining, but it is slow (about a week with single V100 GPU). So, we recommand that you can load pretrained teacher mdoel, Cylinder3D, from [cylinder3d_val_65.4.pt](https://drive.google.com/file/d/1G-zwBLYfpoi3uyLfsnQVOM4qraq73oG6/view?usp=sharing), by the way, you can also use pretrained model from [here](https://github.com/cardwing/Codes-for-PVKD#performance). Anyway, if you use pretrained model, you should put it it `pretrained/`.
 
 ## Train
 
