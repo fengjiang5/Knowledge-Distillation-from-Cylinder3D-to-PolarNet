@@ -87,3 +87,9 @@ Then, you can follow [here](https://github.com/PRBonn/semantic-kitti-api) to val
 Our code is mainly based on [Cylindr3D](https://github.com/xinge008/Cylinder3D), [PolarNet](https://github.com/edwardzhou130/PolarSeg) and TTA from [PVKD](https://github.com/cardwing/Codes-for-PVKD).
 
 **Thanks for their excellent works!**
+
+<!-- ## Reference
+If you find our paper or out code is useful, please cite us our paper
+```
+
+``` -->
