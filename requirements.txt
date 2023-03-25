@@ -8,3 +8,4 @@ Cython
 scipy
 dropblock
 plyfile
+spconv 1.2.1
