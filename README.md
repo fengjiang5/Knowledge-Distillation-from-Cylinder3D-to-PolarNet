@@ -1,7 +1,7 @@
 # Knowledge Distillation from 3D to Bird's-Eye-View for LiDAR Semantic Segmentation
 
 - **2023-03** We release our main code for valid our model.
-- **2023-03** Our paper is accepted by ICME 2023.
+- **2023-03** Our [paper](https://arxiv.org/abs/2304.11393) is accepted by ICME 2023.
 
 ## Model
 The architecture of our framework. Our framework has three main parts, similar to other knowledge distillation methods. The first is the teacher model, and here, we choose voxel-based methods as our teacher model, which have high accuracy but suffer from a computational burden. Voxel-based methods usually encode each voxel and have more geometric and structural features. We choose BEV-based methods as the student model because they are usually efficient for practical application. The last part is the knowledge distillation model, which is the main part of our framework. Benefiting from our well-designed voxel-to-pillar distillation module and label-weight distillation module, the student model can learn more valuable information during training and improve the inference performance without extra computation. In addition, we also used logit distillation.
