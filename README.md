@@ -98,8 +98,14 @@ Our code is mainly based on [Cylindr3D](https://github.com/xinge008/Cylinder3D),
 
 **Thanks for their excellent works!**
 
-<!-- ## Reference
+## Reference
 If you find our paper or out code is useful, please cite us our paper
 ```
-
-``` -->
+@inproceedings{knowledge3dtobev,
+  title={Knowledge Distillation from 3D to Bird's-Eye-View for LiDAR Semantic Segmentation},
+  author={Jiang, Feng and Gao, Heng and Qiu, Shoumeng and Zhang, Haiqiang and Wan, Ru and Pu, Jian},
+  booktitle={2023 IEEE International Conference on Multimedia and Expo (ICME)},
+  year={2023},
+  organization={IEEE}
+}
+``` 
